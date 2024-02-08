@@ -5,22 +5,10 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".start">
+    tools:context=".start"
+    android:background="@drawable/wp3347873">
 
     <!-- TODO: Update blank fragment layout -->
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="1728dp"
-        android:layout_height="2457dp"
-        android:rotation="180"
-        android:src="@drawable/black_planet_surface_1920__1_"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.595"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437" />
 
     <Button
         android:id="@+id/button"
@@ -29,17 +17,17 @@
         android:text="welcome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/wp3347873"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="go to youre location"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="456dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
